@@ -302,6 +302,12 @@ npm install github-markdown-css
 
 と記述すれば良い。ここでは、`<ContentDoc />`コンポーネントによって該当する path の Markdown ファイルが描画されている。
 
+## GitHub Pages での自動デプロイ
+
+GitHub Actions を用いる。ワークフローは以下。
+https://github.com/omemoji/omemoji.com/blob/main/.github/workflows/gh-pages.yml
+`./dist`以下のファイルを`gh-pages`ブランチに生成し、そのブランチ上でデプロイを行っている。
+
 # 振り返りと課題・今後の展望
 
 ## 振り返り
