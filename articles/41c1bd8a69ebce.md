@@ -2,8 +2,8 @@
 title: "Nuxt3+Tailwind CSSでギャラリー付きポートフォリオを作成する"
 emoji: "🍃"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["nuxtjs", "tailwindcss", nuxt3, vue]
-published: false
+topics: ["nuxtjs", "tailwindcss", "nuxt3", "vue", "個人開発"]
+published: true
 ---
 
 # この記事について
@@ -141,11 +141,16 @@ npx tailwindcss init
 - チープな印象を与えないこと
 - レスポンシブデザインに対応すること
 - 情報やサイトの構造が見やすいこと
+- (様々な色を使っている作品群と色彩が衝突しないように)モノトーンに近いカラーリングにすること
 
-### こだわり
+加えて、既製のコンポーネントを用意しているタイプの UI フレームワークでは自分の求めるデザインに微妙に合致していないことが多かった(これが Tailwind CSS を選択した理由でもある)ので、他の Web サイトを参考に自分で UI をデザインした。
 
-- ヘッダーがすりガラスのように半透明になっている
+### デザインのこだわり
+
+- ヘッダーがすりガラスのように背景をぼかして透過している
   ![screen24](https://user-images.githubusercontent.com/68148226/208279097-c6b22da1-6c9e-440c-991a-6094f3a42f49.png)
+- Instagram や Pixiv を参考にした、正方形を基調としたギャラリー
+  ![image](https://user-images.githubusercontent.com/68148226/208282966-3142107e-732b-4f9a-bd17-84ad76bdd656.png)
 
 ## 作品ページとギャラリーの実装
 
@@ -354,6 +359,7 @@ TypeScript、もっと言えば JavaScript もきちんと理解していない�
 - 作品ページで画像をクリックすると全画面に拡大する(これは簡単にできるモジュールがありそう)
 - ダークモード
 - 作品を Twitter でシェアするボタン
+- 記事や作品をタグで整理する
 
 などの機能を今後実装してみたい。
 
