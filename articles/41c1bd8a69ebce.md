@@ -16,7 +16,7 @@ Nuxt3 と Tailwind CSS を用いて「創作物紹介」という静的なギャ
 
 # ポートフォリオ「創作物紹介」について
 
-<!-- [![](https://user-images.githubusercontent.com/68148226/206378627-436399d5-f540-4a6b-adda-d8a68d9a0da0.png)](https://omemoji.com) -->
+![](https://user-images.githubusercontent.com/68148226/206378627-436399d5-f540-4a6b-adda-d8a68d9a0da0.png)
 
 ## 概要
 
