@@ -26,7 +26,7 @@ https://omemoji.com
 
 ### リポジトリ
 
-https://github.com/omemoji/omemoji.com
+https://github.com/omemoji/omemoji.com/tree/f978bd12d1010264e44d4e45de18a786d047af5d
 
 ## 機能
 
