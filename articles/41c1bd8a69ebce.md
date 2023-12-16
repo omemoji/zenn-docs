@@ -26,7 +26,7 @@ https://omemoji.com
 
 ### リポジトリ
 
-(2023-12-19 追記：以下は Next.js でリニューアルする前のコミットである)
+(2023-12-16 追記：以下は Next.js でリニューアルする前のコミットである)
 
 https://github.com/omemoji/omemoji.com/tree/f978bd12d1010264e44d4e45de18a786d047af5d
 
