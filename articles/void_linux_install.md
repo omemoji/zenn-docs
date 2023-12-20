@@ -2,7 +2,7 @@
 title: "Void Linuxをインストールする"
 emoji: "🐧"
 type: "tech"
-topics: ["linux","Void Linux"]
+topics: ["linux", "Void Linux"]
 published: true
 ---
 
@@ -14,7 +14,7 @@ published: true
 
 元記事は以下。
 
-https://omemoji.com/articles/2023/07/void_linux
+https://omemoji.com/articles/void_linux
 
 Void Linux をメイン PC (Thinkpad E14 Gen 3) にインストールし、普段使いすることにした。なお、この記事は Linux をある程度使った経験がある人向けであり、初めて Linux に触れる人にはあまりおすすめできない。
 
@@ -31,9 +31,9 @@ Void Linux は Linux ディストリビューション(以下、ディストロ)
 - init システム (他の全てのプロセスを起動するプログラム) として systemd ではなく runit を用いる
 - glibc と musl の二種類の C 言語ライブラリに対応している
 - XBPS という独自に開発されたパッケージマネージャを使う
-- [xbps-src](https://github.com/void-linux/void-packages) という Arch Linux における [AUR](https://wiki.archlinux.jp/index.php/Arch_User_Repository) のようなシステムがある (詳細はリンク先参照。Google Chromeはこれを使ってインストールする)
+- [xbps-src](https://github.com/void-linux/void-packages) という Arch Linux における [AUR](https://wiki.archlinux.jp/index.php/Arch_User_Repository) のようなシステムがある (詳細はリンク先参照。Google Chrome はこれを使ってインストールする)
 
-日本では知名度が低い (Wikipedia の記事さえ無い) が[Distrowatchの評価](https://distrowatch.com/dwres.php?resource=ratings&distro=void)は9.3/10とかなり高く、根強い人気があるようだ。
+日本では知名度が低い (Wikipedia の記事さえ無い) が[Distrowatch の評価](https://distrowatch.com/dwres.php?resource=ratings&distro=void)は 9.3/10 とかなり高く、根強い人気があるようだ。
 
 ## インストールのきっかけ
 
@@ -217,7 +217,7 @@ sudo ln -snfv /etc/sv/bluetoothd /var/service/
 
 設定が思ったよりも大変だったが、公式ドキュメントの優秀さもあって今のところ不自由なく使用出来ている。ローリングリリースということで、今後はこれ一本で戦っていけそうである。また、同じく自由度が高いことで知られる Arch Linux と比較して更新がそれほど頻繁でなく安定性が高い点も、面倒臭がりの自分にとっては合っていると思う。
 
-runit 周りの設定にかなり手こずってしまった。まだよく分かっていないところも多いが慣れれば便利そうなので、ドキュメントを更に読みつつinitシステムへの理解を深めていきたい。
+runit 周りの設定にかなり手こずってしまった。まだよく分かっていないところも多いが慣れれば便利そうなので、ドキュメントを更に読みつつ init システムへの理解を深めていきたい。
 
 何かどうしようもない問題があったら Debian testing に戻す。
 
